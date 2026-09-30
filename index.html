@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>วันสำคัญทางพระพุทธศาสนา | Buddhist Holy Days</title>
+  <meta name="description" content="เว็บไซต์รวบรวมข้อมูลวันสำคัญทางพระพุทธศาสนา ได้แก่ วันมาฆบูชา วันวิสาขบูชา วันอาสาฬหบูชา และวันเข้าพรรษา พร้อมประวัติและความสำคัญ" />
+  <meta name="keywords" content="วันสำคัญทางพระพุทธศาสนา, มาฆบูชา, วิสาขบูชา, อาสาฬหบูชา, เข้าพรรษา, Buddhist holiday" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☸️</text></svg>" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+<!-- ======================================================
+     NAVBAR
+====================================================== -->
+<nav class="navbar" role="navigation" aria-label="เมนูหลัก">
+  <div class="nav-brand">
+    <span class="dharma-wheel" aria-hidden="true">☸️</span>
+    <span class="brand-text">วันสำคัญทางพระพุทธศาสนา</span>
+  </div>
+
+  <ul class="nav-menu" id="navMenu" role="menubar">
+    <li class="nav-item" role="none"><a href="index.html" id="nav-home" role="menuitem">🏠 หน้าหลัก</a></li>
+    <li class="nav-item" role="none"><a href="makha.html" id="nav-makha" role="menuitem">🌕 มาฆบูชา</a></li>
+    <li class="nav-item" role="none"><a href="visakha.html" id="nav-visakha" role="menuitem">🌸 วิสาขบูชา</a></li>
+    <li class="nav-item" role="none"><a href="asalha.html" id="nav-asalha" role="menuitem">☀️ อาสาฬหบูชา</a></li>
+    <li class="nav-item" role="none"><a href="khao-phansa.html" id="nav-khao" role="menuitem">🕯️ เข้าพรรษา</a></li>
+    <li class="nav-item" role="none"><a href="references.html" id="nav-ref" role="menuitem">📚 แหล่งอ้างอิง</a></li>
+  </ul>
+
+  <button class="nav-toggle" id="navToggle" aria-label="เปิด/ปิดเมนู" aria-expanded="false" aria-controls="navMenu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ======================================================
+     HERO SECTION
+====================================================== -->
+<section class="hero" id="hero" aria-label="หน้าแรก" style="position:relative;">
+  <div class="hero-bg" style="background-image:url('images/hero.png');background-size:cover;background-position:center;opacity:0.45;position:absolute;inset:0;"></div>
+  <div class="hero-bg" style="background:var(--gradient-hero);position:absolute;inset:0;z-index:1;"></div>
+  <div class="hero-particles" aria-hidden="true" style="z-index:2;"></div>
+  <div class="hero-glow" aria-hidden="true" style="z-index:2;"></div>
+
+  <div class="hero-content" style="z-index:3;position:relative;">
+    <div class="hero-badge" aria-label="หมวดหมู่">
+      <span>🙏</span>
+      <span>พระพุทธศาสนา &nbsp;|&nbsp; ประเพณีไทย &nbsp;|&nbsp; วัฒนธรรม</span>
+    </div>
+
+    <h1 class="hero-title">
+      <span class="gold-text">วันสำคัญ</span><br />
+      ทางพระพุทธศาสนา
+    </h1>
+
+    <p class="hero-subtitle">
+      รวบรวมข้อมูลวันสำคัญทางพระพุทธศาสนา ประวัติความเป็นมา ความสำคัญ
+      และกิจกรรมที่พุทธศาสนิกชนชาวไทยพึงปฏิบัติ
+    </p>
+
+    <div class="hero-cta">
+      <a href="#days" class="btn btn-gold" id="btn-explore">
+        <span>🪷</span> สำรวจวันสำคัญ
+      </a>
+      <a href="#video" class="btn btn-outline" id="btn-watch">
+        <span>▶️</span> ชมวิดีโอ
+      </a>
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div style="position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);z-index:2;animation:fadeInUp 1s ease 1.2s both;opacity:0;" aria-hidden="true">
+    <div style="width:28px;height:44px;border:2px solid rgba(201,146,42,0.5);border-radius:14px;display:flex;align-items:flex-start;justify-content:center;padding-top:6px;">
+      <div style="width:4px;height:10px;background:var(--gold-primary);border-radius:2px;animation:scrollDot 1.8s ease-in-out infinite;"></div>
+    </div>
+    <style>@keyframes scrollDot{0%,100%{transform:translateY(0);opacity:1}80%{transform:translateY(12px);opacity:0}}</style>
+  </div>
+</section>
+
+<!-- ======================================================
+     VIDEO SECTION
+====================================================== -->
+<section class="video-section" id="video" aria-label="วิดีโอเกี่ยวกับวันสำคัญทางพระพุทธศาสนา">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-eyebrow">▶ วิดีโอ</span>
+      <h2 class="section-title">วันสำคัญทาง<span class="accent">พระพุทธศาสนา</span></h2>
+      <p class="section-desc">ชมวิดีโอประกอบความเข้าใจเกี่ยวกับวันสำคัญทางพระพุทธศาสนาของไทย</p>
+    </div>
+
+    <div class="video-frame-wrapper fade-in">
+      <div class="video-frame-outer">
+        <div class="video-frame-inner">
+          <!-- YouTube video: วันสำคัญทางพระพุทธศาสนา 4 วัน -->
+          <iframe
+            id="main-video"
+            src="https://www.youtube.com/embed/videoseries?list=PLzK-jDqkAi26bWO6W-LZe3-bIYwmEVfkI"
+            title="วันสำคัญทางพระพุทธศาสนา 4 วัน | ประวัติและความสำคัญ"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+      <p class="video-caption">
+        📹 แหล่งที่มา: <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a>
+        &nbsp;—&nbsp; วิดีโอเกี่ยวกับวันสำคัญทางพระพุทธศาสนา สร้างสรรค์เพื่อการศึกษา
+      </p>
+    </div>
+
+    <!-- Extra video links -->
+    <div style="display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin-top:2rem;" class="fade-in">
+      <a href="https://www.youtube.com/results?search_query=วันมาฆบูชา" target="_blank" rel="noopener noreferrer"
+         class="btn btn-outline" id="btn-yt-makha" style="font-size:0.82rem;padding:0.5rem 1.2rem;">
+        🔴 YouTube: มาฆบูชา
+      </a>
+      <a href="https://www.youtube.com/results?search_query=วันวิสาขบูชา" target="_blank" rel="noopener noreferrer"
+         class="btn btn-outline" id="btn-yt-visakha" style="font-size:0.82rem;padding:0.5rem 1.2rem;">
+        🔴 YouTube: วิสาขบูชา
+      </a>
+      <a href="https://www.tiktok.com/search?q=วันสำคัญทางพระพุทธศาสนา" target="_blank" rel="noopener noreferrer"
+         class="btn btn-outline" id="btn-tiktok" style="font-size:0.82rem;padding:0.5rem 1.2rem;">
+        🎵 TikTok: วันสำคัญ
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     DAYS OVERVIEW CARDS
+====================================================== -->
+<section class="days-section" id="days" aria-label="วันสำคัญทางพระพุทธศาสนา 4 วัน">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-eyebrow">🪷 วันสำคัญ</span>
+      <h2 class="section-title">วันสำคัญทาง<span class="accent">พระพุทธศาสนา</span></h2>
+      <p class="section-desc">วันที่พุทธศาสนิกชนพึงระลึกและปฏิบัติตนตามหลักธรรม</p>
+    </div>
+
+    <div class="cards-grid" role="list">
+
+      <!-- มาฆบูชา -->
+      <article class="day-card fade-in" role="listitem" aria-label="วันมาฆบูชา">
+        <div class="card-icon-area">
+          <img src="images/makha.png"
+               alt="พิธีเวียนเทียนวันมาฆบูชา" loading="lazy" />
+          <div class="icon-overlay"></div>
+          <span class="card-emoji">🌕</span>
+        </div>
+        <div class="card-body">
+          <span class="card-date-badge">ขึ้น 15 ค่ำ เดือน 3</span>
+          <h2 class="card-title">วันมาฆบูชา</h2>
+          <p class="card-sub">Makha Bucha Day</p>
+          <p class="card-desc">
+            วันที่พระพุทธเจ้าทรงแสดงโอวาทปาติโมกข์ท่ามกลางพระสาวกจำนวน 1,250 รูป
+            ที่มาประชุมกันโดยมิได้นัดหมาย
+          </p>
+          <a href="makha.html" class="card-link" id="card-link-makha" aria-label="อ่านรายละเอียดวันมาฆบูชา">
+            อ่านรายละเอียด <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- วิสาขบูชา -->
+      <article class="day-card fade-in" role="listitem" aria-label="วันวิสาขบูชา">
+        <div class="card-icon-area">
+          <img src="images/visakha.png"
+               alt="การเวียนเทียนวันวิสาขบูชา" loading="lazy" />
+          <div class="icon-overlay"></div>
+          <span class="card-emoji">🌸</span>
+        </div>
+        <div class="card-body">
+          <span class="card-date-badge">ขึ้น 15 ค่ำ เดือน 6</span>
+          <h2 class="card-title">วันวิสาขบูชา</h2>
+          <p class="card-sub">Visakha Bucha Day</p>
+          <p class="card-desc">
+            วันที่สำคัญที่สุดในพระพุทธศาสนา องค์การสหประชาชาติรับรองให้เป็น
+            "วันสำคัญสากล" ตรงกับวันประสูติ ตรัสรู้ และปรินิพพานของพระพุทธเจ้า
+          </p>
+          <a href="visakha.html" class="card-link" id="card-link-visakha" aria-label="อ่านรายละเอียดวันวิสาขบูชา">
+            อ่านรายละเอียด <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- อาสาฬหบูชา -->
+      <article class="day-card fade-in" role="listitem" aria-label="วันอาสาฬหบูชา">
+        <div class="card-icon-area">
+          <img src="images/asalha.png"
+               alt="วันอาสาฬหบูชา" loading="lazy" />
+          <div class="icon-overlay"></div>
+          <span class="card-emoji">☀️</span>
+        </div>
+        <div class="card-body">
+          <span class="card-date-badge">ขึ้น 15 ค่ำ เดือน 8</span>
+          <h2 class="card-title">วันอาสาฬหบูชา</h2>
+          <p class="card-sub">Asalha Bucha Day</p>
+          <p class="card-desc">
+            วันที่พระพุทธเจ้าทรงแสดงปฐมเทศนา "ธัมมจักกัปปวัตตนสูตร"
+            แก่ปัญจวัคคีย์ ณ ป่าอิสิปตนมฤคทายวัน เมืองพาราณสี
+          </p>
+          <a href="asalha.html" class="card-link" id="card-link-asalha" aria-label="อ่านรายละเอียดวันอาสาฬหบูชา">
+            อ่านรายละเอียด <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- เข้าพรรษา -->
+      <article class="day-card fade-in" role="listitem" aria-label="วันเข้าพรรษา">
+        <div class="card-icon-area">
+          <img src="images/khao-phansa.png"
+               alt="วันเข้าพรรษา" loading="lazy" />
+          <div class="icon-overlay"></div>
+          <span class="card-emoji">🕯️</span>
+        </div>
+        <div class="card-body">
+          <span class="card-date-badge">แรม 1 ค่ำ เดือน 8</span>
+          <h2 class="card-title">วันเข้าพรรษา</h2>
+          <p class="card-sub">Khao Phansa Day</p>
+          <p class="card-desc">
+            วันที่พระภิกษุจะต้องอยู่ประจำวัดตลอดระยะเวลา 3 เดือน
+            ในช่วงฤดูฝน พุทธศาสนิกชนจะนำเทียนพรรษาไปถวายวัด
+          </p>
+          <a href="khao-phansa.html" class="card-link" id="card-link-khao" aria-label="อ่านรายละเอียดวันเข้าพรรษา">
+            อ่านรายละเอียด <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     SIGNIFICANCE STATS
+====================================================== -->
+<section class="significance-section" aria-label="ข้อมูลสำคัญ">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-eyebrow">📊 ข้อมูล</span>
+      <h2 class="section-title">ความสำคัญของ<span class="accent">พระพุทธศาสนา</span></h2>
+    </div>
+    <div class="sig-grid">
+      <div class="sig-item fade-in">
+        <div class="sig-icon">🏛️</div>
+        <div class="sig-number" data-target="2500" data-suffix="+">0</div>
+        <div class="sig-label">ปีแห่งพระพุทธศาสนา</div>
+      </div>
+      <div class="sig-item fade-in">
+        <div class="sig-icon">🌍</div>
+        <div class="sig-number" data-target="500" data-suffix="ล้าน+">0</div>
+        <div class="sig-label">พุทธศาสนิกชนทั่วโลก</div>
+      </div>
+      <div class="sig-item fade-in">
+        <div class="sig-icon">📅</div>
+        <div class="sig-number" data-target="4" data-suffix=" วัน">0</div>
+        <div class="sig-label">วันสำคัญหลักในไทย</div>
+      </div>
+      <div class="sig-item fade-in">
+        <div class="sig-icon">🇹🇭</div>
+        <div class="sig-number" data-target="95" data-suffix="%">0</div>
+        <div class="sig-label">คนไทยนับถือพุทธศาสนา</div>
+      </div>
+      <div class="sig-item fade-in">
+        <div class="sig-icon">⛩️</div>
+        <div class="sig-number" data-target="40000" data-suffix="+">0</div>
+        <div class="sig-label">วัดในประเทศไทย</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     EXTERNAL LINKS
+====================================================== -->
+<section class="links-section" aria-label="ลิงก์เว็บไซต์ที่เกี่ยวข้อง">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-eyebrow">🔗 ลิงก์</span>
+      <h2 class="section-title">เว็บไซต์ที่<span class="accent">เกี่ยวข้อง</span></h2>
+      <p class="section-desc">แหล่งข้อมูลพระพุทธศาสนาที่น่าเชื่อถือ</p>
+    </div>
+
+    <div class="links-grid" role="list">
+
+      <a href="https://www.dra.go.th" target="_blank" rel="noopener noreferrer"
+         class="link-card fade-in" id="ext-dra" role="listitem"
+         aria-label="กรมการศาสนา กระทรวงวัฒนธรรม">
+        <div class="link-icon">🏛️</div>
+        <div class="link-info">
+          <div class="link-title">กรมการศาสนา</div>
+          <div class="link-url">www.dra.go.th</div>
+        </div>
+        <span class="link-arrow" aria-hidden="true">→</span>
+      </a>
+
+      <a href="https://www.dhammajak.net" target="_blank" rel="noopener noreferrer"
+         class="link-card fade-in" id="ext-dhammajak" role="listitem"
+         aria-label="เว็บธรรมจักร">
+        <div class="link-icon">☸️</div>
+        <div class="link-info">
+          <div class="link-title">เว็บธรรมจักร</div>
+          <div class="link-url">www.dhammajak.net</div>
+        </div>
+        <span class="link-arrow" aria-hidden="true">→</span>
+      </a>
+
+      <a href="https://www.84000.org" target="_blank" rel="noopener noreferrer"
+         class="link-card fade-in" id="ext-84000" role="listitem"
+         aria-label="84000 พระธรรมขันธ์">
+        <div class="link-icon">📖</div>
+        <div class="link-info">
+          <div class="link-title">84000 พระธรรมขันธ์</div>
+          <div class="link-url">www.84000.org</div>
+        </div>
+        <span class="link-arrow" aria-hidden="true">→</span>
+      </a>
+
+      <a href="https://www.watpamahachai.net" target="_blank" rel="noopener noreferrer"
+         class="link-card fade-in" id="ext-wpm" role="listitem"
+         aria-label="วัดป่ามหาชัย">
+        <div class="link-icon">⛩️</div>
+        <div class="link-info">
+          <div class="link-title">วัดป่ามหาชัย</div>
+          <div class="link-url">www.watpamahachai.net</div>
+        </div>
+        <span class="link-arrow" aria-hidden="true">→</span>
+      </a>
+
+      <a href="https://www.aksorn.com/th/buddhism" target="_blank" rel="noopener noreferrer"
+         class="link-card fade-in" id="ext-aksorn" role="listitem"
+         aria-label="อักษรธรรม สื่อพระพุทธศาสนา">
+        <div class="link-icon">📚</div>
+        <div class="link-info">
+          <div class="link-title">อักษรธรรม</div>
+          <div class="link-url">www.aksorn.com/buddhism</div>
+        </div>
+        <span class="link-arrow" aria-hidden="true">→</span>
+      </a>
+
+      <a href="https://www.mcu.ac.th" target="_blank" rel="noopener noreferrer"
+         class="link-card fade-in" id="ext-mcu" role="listitem"
+         aria-label="มหาวิทยาลัยมหาจุฬาลงกรณราชวิทยาลัย">
+        <div class="link-icon">🎓</div>
+        <div class="link-info">
+          <div class="link-title">มหาวิทยาลัยมหาจุฬาฯ</div>
+          <div class="link-url">www.mcu.ac.th</div>
+        </div>
+        <span class="link-arrow" aria-hidden="true">→</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================
+     FOOTER
+====================================================== -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="nav-brand" style="margin-bottom:0.8rem;">
+          <span style="font-size:1.5rem;">☸️</span>
+          <span class="brand-text">วันสำคัญทางพระพุทธศาสนา</span>
+        </div>
+        <p>เว็บไซต์จัดทำเพื่อการศึกษา ในกิจกรรมบูรณาการรายวิชาการเตรียมความพร้อมฝึกประสบการณ์วิชาชีพฯ
+        กับกิจกรรมศิลปวัฒนธรรม เนื้อหาและภาพถ่ายอ้างอิงจากแหล่งที่เชื่อถือได้</p>
+      </div>
+      <nav class="footer-links" aria-label="ลิงก์ท้ายหน้า">
+        <a href="index.html">หน้าหลัก</a>
+        <a href="makha.html">วันมาฆบูชา</a>
+        <a href="visakha.html">วันวิสาขบูชา</a>
+        <a href="asalha.html">วันอาสาฬหบูชา</a>
+        <a href="khao-phansa.html">วันเข้าพรรษา</a>
+        <a href="references.html">แหล่งอ้างอิง</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2568 วันสำคัญทางพระพุทธศาสนา | จัดทำเพื่อการศึกษา</p>
+      <p style="color:var(--gold-primary);">🙏 น้อมรำลึกถึงพระธรรมคำสอน</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
